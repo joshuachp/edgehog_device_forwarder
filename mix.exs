@@ -43,7 +43,8 @@ defmodule EdgehogDeviceForwarder.MixProject do
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
       {
         :edgehog_device_forwarder_proto,
-        git: "https://github.com/edgehog-device-manager/edgehog-device-forwarder-proto",
+        git: "https://github.com/joshuachp/edgehog-device-forwarder-proto",
+        branch: "feat-https-add-insecure-flag",
         sparse: "elixir/edgehog_device_forwarder_proto"
       },
       {:elixir_uuid, "~> 1.2"},
